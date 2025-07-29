@@ -1,0 +1,87 @@
+@media (max-width: 720px) {
+    .common_select {
+      margin-top: 15px;
+    }
+  
+    .common_select-link {
+      background: #29a252 !important;
+      border-radius: 8px !important;
+    }
+  
+    .ik_select_link_text {
+      position: relative;
+      color: white !important;
+    }
+  
+    .ik_select_link.common_select-link::after {
+      position: absolute;
+      content: '';
+      background: url('/bitrix/templates/aspro_max_old/images/svg/FlowerIcon.svg');
+      width: 25px;
+      height: 25px;
+      background-size: contain;
+  
+      /* transform: translateX(100%); */
+      top: 6px;
+      right: 10px;
+    }
+  
+    .services-item__wrapper.colored_theme_block_text {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .services-item__inner {
+      order: 2;
+    }
+  
+    .common_select-link .trigger {
+      display: none;
+    }
+  
+    .services-item__wrapper div:nth-child(2) .services-item__title {
+      display: none;
+    }
+  
+    .services-item__wrapper div:nth-child(2) .services-item__desc {
+      display: none;
+    }
+  }
+  
+  .instalments-buy {
+    position: relative;
+  }
+  
+  .instalments-buy-content {
+    position: absolute;
+  
+    top: calc(100% + 10px);
+  
+    background: #aaaaaa;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    z-index: 10;
+  }
+  
+  .instalments-btn {
+    width: 100% !important;
+    margin-top: 10px !important;
+    background: #aaaaaa !important;
+    color: white !important;
+    border: none !important;
+  }
+  
+  .instalments-btn:hover {
+    background: #aaaaaa !important;
+  }
+  
+  .d-none {
+    display: none !important;
+  }
+  
+  .edost_C2_preview_normal {
+    display: flex;
+    flex-direction: column;
+  }
+  
